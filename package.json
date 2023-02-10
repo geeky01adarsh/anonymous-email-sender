@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "ts-node-esm src/index.ts",
-    "run-js": "tsc && node dist/index.js"
+    "run-js": "tsc && node dist/index.js",
+    "start": "nodemon --exec ts-node-esm src/index.ts"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
