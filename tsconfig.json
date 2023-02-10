@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module":"NodeNext", // module system for the program (nodenest for module files)
+        "moduleResolution": "NodeNext", // how ts will find the code you import
+        "target":"ES2020", // flavour of JS in which code will compile
+        "sourceMap": true, // maps compiled JS code back to TS
+        "outDir": "dist" // where the final JS code will be compiled
+    },
+    "include": ["src/**/*"], // where to find the code
+}
